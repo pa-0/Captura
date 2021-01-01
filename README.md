@@ -1,3 +1,6 @@
+NOTE: not the original repo i forked it. I was sad to hear it is end of life this app inspired my idea for fss/mssr and i thought maybe i can maintain both and learn too. 
+
+
 ![Captura](https://mathewsachin.github.io/Captura/assets/Banner.png)
 
 [![Master Build Status](https://img.shields.io/appveyor/ci/MathewSachin/Captura/master.svg?style=flat-square&logo=appveyor)](https://ci.appveyor.com/project/MathewSachin/Captura)
