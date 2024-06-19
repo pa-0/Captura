@@ -169,7 +169,7 @@ namespace Captura
 
         public string FilenameFormat
         {
-            get => Get("%yyyy%-%MM%-%dd%/%HH%-%mm%-%ss%");
+            get => Get("%yyyy%-%MM%-%dd%\\%HH%-%mm%-%ss%");
             set => Set(value);
         }
 
@@ -209,7 +209,8 @@ namespace Captura
                 .Replace("%mm%", now.ToString("mm"))
                 .Replace("%ss%", now.ToString("ss"))
                 .Replace("%tt%", now.ToString("tt"))
-                .Replace("%zzz%", now.ToString("zzz"));
+                .Replace("%zzz%", now.ToString("zzz"))
+                .Replace("/", "\\");
             
             var path = Path.Combine(outPath, $"{filename}{Extension}");
 
