@@ -247,11 +247,11 @@ namespace Captura.Windows.MediaFoundation
             if (Image is RepeatFrame)
                 return;
 
-            Image = Image.Unwrap();
+            IBitmapFrame InnerImage = Image.Unwrap();
 
             using (Image)
             {
-                if (Image is Texture2DFrame frame)
+                if (InnerImage is Texture2DFrame frame)
                 {
                     Write(frame.Texture);
                 }
@@ -260,7 +260,7 @@ namespace Captura.Windows.MediaFoundation
                     using var buffer = MediaFactory.CreateMemoryBuffer(_bufferSize);
                     var data = buffer.Lock(out _, out _);
 
-                    Image.CopyTo(data);
+                    InnerImage.CopyTo(data);
 
                     buffer.CurrentLength = _bufferSize;
 
