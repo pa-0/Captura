@@ -1,30 +1,20 @@
 ![Captura](https://mathewsachin.github.io/Captura/assets/Banner.png)
 
+[![Master Build Status](https://img.shields.io/appveyor/ci/MathewSachin/Captura/master.svg?style=flat-square&logo=appveyor)](https://ci.appveyor.com/project/MathewSachin/Captura)
 [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](LICENSE.md)
+[![Chat](https://img.shields.io/badge/chat-on_gitter-yellow.svg?style=flat-square&logo=gitter)](https://gitter.im/MathewSachin/Captura)
 
+[![Downloads](https://img.shields.io/github/downloads/MathewSachin/Captura/total.svg?style=flat-square)](https://mathewsachin.github.io/Captura/download)
+[![PayPal Donate](https://img.shields.io/badge/donate-PayPal-orange.svg?style=flat-square&logo=paypal)](https://mathewsachin.github.io/Captura/donate)
+[![Crowdin](https://d322cqt584bo4o.cloudfront.net/captura/localized.svg)](https://crowdin.com/project/captura)
 
+&copy; [Copyright 2019](LICENSE.md) Mathew Sachin
 
-&copy; [Copyright 2019](mathew/LICENSE_MathewSachin.md) Mathew Sachin
-&copy; [Copyright 2024](LICENSE.md) Mr. Chip
-
-To read the story of **Capture** in following
 :link: <https://mathewsachin.github.io/Captura/>
 
 Capture Screen, WebCam, Audio, Cursor, Mouse Clicks and Keystrokes.
 
-
-![Captura](docs/Screenshots/Captura.png)
-
-
-I also learned about the program **Captura** from chatting room. [Captura](https://github.com/MathewSachin/Captura) was first developed as an open source program first initiated by **Mathew Sachin**. But the author eventually abandoned the development and maintenance of this software due to some unpleasant experiences ([#406](https://github.com/MathewSachin/Captura/issues/405)) and a shift in interest ([#570](https://github.com/MathewSachin/Captura/issues/570)).
-
-![Captura-Repository](docs/Screenshots/Captura_Github_Repo.png)
-
-
-Looking at the Github code stats, the entire repository probably has less than **50k** lines of code. In the spirit of learning, I cloned this repository and found that it compiles directly on Visual Studio 2022, which is still very nice. During the period I also found some software bugs. this is a good software, it is a pity to be discontinued. So I want to have the opportunity to take over the maintenance of this software, so I made a fork [mrchipset/nCaptura](https://github.com/mrchipset/Captura) to start my modification.
-
-I changed the repository name to **nCaptura**, which means `new-Captura`. Hopefully, it will lead to a new trip for this project.
-
+<a href="docs/Screenshots"><img src="https://mathewsachin.github.io/Captura/assets/ScreenShots/Home.png" style="max-width: 200px"></a>
 
 ## Features
 
@@ -40,8 +30,6 @@ I changed the repository name to **nCaptura**, which means `new-Captura`. Hopefu
 - Configurable [Hotkeys](https://mathewsachin.github.io/Captura/hotkeys)
 
 ## Installation
-Installation package `nCaptura` is coming soon.
-To install the original `Captura`. Please find the information following.
 
 [latest]: https://github.com/MathewSachin/Captura/releases/latest
 
