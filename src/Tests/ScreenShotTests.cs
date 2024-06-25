@@ -41,7 +41,7 @@ namespace Captura.Tests.Views
         /// Take ScreenShot of all Tabs.
         /// </summary>
         // TODO: Don't skip this test
-        [Fact(Skip = "This is failing randomly on AppVeyor")]
+        [Fact]
         public void ScreenShotTabs()
         {
             Shot("shot.png", _appRunner.App.Process.MainWindowHandle);

@@ -60,7 +60,7 @@ namespace Captura.Tests.Console
         }
 
         // TODO: Don't skip this test
-        [Fact(Skip = "This is failing on AppVeyor")]
+        [Fact]
         public void StartSharpAviFixedDuration()
         {
             var process = Start("start --encoder sharpavi:0 --length 1");
