@@ -91,8 +91,13 @@ jobs:
       env:
         Configuration: ${{ matrix.configuration }}
 
+    # Upload the application
+    - name: Upload the binary
+      uses: actions/upload-artifact@v4
+      with:
+        name: App
+        path: src/Captura/bin # or path/to/artifact
         
-
     # # Decode the base 64 encoded pfx and save the Signing_Certificate
     # - name: Decode the pfx
     #   run: |
