@@ -106,7 +106,7 @@ namespace Captura.Windows.DesktopDuplication
                         0,
                         TargetPosition.X, TargetPosition.Y);
 
-                    return true;
+                    return false;
                 }
 
                 if (acquireResult.Result.Failure)
