@@ -1,6 +1,7 @@
 ![Captura](https://mathewsachin.github.io/Captura/assets/Banner.png)
 
 [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](LICENSE.md)
+![Build Status](https://github.com/mrchipset/nCaptura/actions/workflows/build.yml/badge.svg)
 
 
 
@@ -21,7 +22,7 @@ I also learned about the program **Captura** from chatting room. [Captura](https
 ![Captura-Repository](docs/Screenshots/Captura_Github_Repo.png)
 
 
-Looking at the Github code stats, the entire repository probably has less than **50k** lines of code. In the spirit of learning, I cloned this repository and found that it compiles directly on Visual Studio 2022, which is still very nice. During the period I also found some software bugs. this is a good software, it is a pity to be discontinued. So I want to have the opportunity to take over the maintenance of this software, so I made a fork [mrchipset/nCaptura](https://github.com/mrchipset/Captura) to start my modification.
+Looking at the Github code stats, the entire repository probably has less than **50k** lines of code. In the spirit of learning, I cloned this repository and found that it compiles directly on Visual Studio 2022, which is still very nice. During the period I also found some software bugs. this is a good software, it is a pity to be discontinued. So I want to have the opportunity to take over the maintenance of this software, so I made a fork [mrchipset/nCaptura](https://github.com/mrchipset/nCaptura) to start my modification.
 
 I changed the repository name to **nCaptura**, which means `new-Captura`. Hopefully, it will lead to a new trip for this project.
 
