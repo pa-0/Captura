@@ -16,15 +16,16 @@
             <StackPanel MinWidth="150"
                         Margin="10">
                 <DockPanel>
-                    <captura:StatusBar DockPanel.Dock="Bottom"
+                    <!--<captura:StatusBar DockPanel.Dock="Bottom"
                                        Margin="7,3"
-                                       Opacity="0.9"/>
+                                       Opacity="0.9"/>-->
 
                     <TextBlock TextWrapping="Wrap"
                                LineHeight="30"
                                Style="{StaticResource TextColor}">
                         <Run FontSize="20" Text="Captura"/> <Run Text="{Binding AppVersion, Mode=OneWay}"/><LineBreak/>
-                        © <Run Text="{Binding Year, Source={x:Static sys:DateTime.Now}, Mode=OneWay}"/> <Hyperlink CommandParameter="https://github.com/MathewSachin">Mathew Sachin</Hyperlink>
+                        © <Run Text="2019"/> <Hyperlink CommandParameter="https://github.com/MathewSachin">Mathew Sachin</Hyperlink>
+                        © <Run Text="{Binding Year, Source={x:Static sys:DateTime.Now}, Mode=OneWay}"/> <Hyperlink CommandParameter="https://github.com/mrchipset">Mr. Chip</Hyperlink>
                     </TextBlock>
                 </DockPanel>
 
@@ -32,12 +33,12 @@
                     <captura:ModernButton Content="GitHub"
                                           IconData="{Binding Icons.GitHub, Source={StaticResource ServiceLocator}}"
                                           Command="{Binding HyperlinkCommand}"
-                                          CommandParameter="https://github.com/MathewSachin/Captura/"/>
+                                          CommandParameter="https://github.com/mrchipset/nCaptura/"/>
 
-                    <captura:ModernButton Content="{Binding Donate, Source={StaticResource Loc}, Mode=OneWay}"
+                    <!--<captura:ModernButton Content="{Binding Donate, Source={StaticResource Loc}, Mode=OneWay}"
                                           IconData="{Binding Icons.PayPal, Source={StaticResource ServiceLocator}}"
                                           Command="{Binding HyperlinkCommand}"
-                                          CommandParameter="https://www.paypal.me/MathewSachin"/>
+                                          CommandParameter="https://www.paypal.me/MathewSachin"/>-->
 
                     <captura:ModernButton Content="{Binding Website, Source={StaticResource Loc}, Mode=OneWay}"
                                           IconData="{Binding Icons.Web, Source={StaticResource ServiceLocator}}"
